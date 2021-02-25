@@ -10,4 +10,5 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+    <string name="paws_website">https://www.paws.ie/</string>
 </resources>
