@@ -24,6 +24,9 @@ jobs:
 
       - name: Build project
         run: ./gradlew spotlessCheck assembleDebug lintDebug --stacktrace
+        
+      - name: GitHub Action for Android Lint
+        uses: yutailang0119/action-android-lint@v1.1.0
 
       - name: Upload build outputs (APKs)
         uses: actions/upload-artifact@v2
